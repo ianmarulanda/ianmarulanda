@@ -3,25 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <title>Coming Soon!</title>
+    <link href="https://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
     <style>
         body {
-            background-color: black;
-            color: white;
+            background-color: #000000; /* Pure Black */
+            color: #ffffff;           /* Pure White */
             margin: 0;
+            padding: 0;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: 'Inter', 'Product Sans', sans-serif;
+            /* Applying Google Sans Bold */
+            font-family: 'Google Sans', sans-serif;
             overflow: hidden;
+            -webkit-font-smoothing: antialiased;
         }
 
         h1 {
-            font-size: 3rem;
-            font-weight: 400;
-            letter-spacing: -0.02em;
+            font-size: 5rem;
+            font-weight: 700; /* Bold */
+            letter-spacing: -0.05em;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Mobile scaling */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3rem;
+            }
         }
     </style>
 </head>
